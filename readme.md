@@ -1,0 +1,16 @@
+-header
+ -navigation bar
+   -navigation bar logo
+   -navigation bar link
+   -navigation bar login
+-main
+ -Section-box-violet
+  -content section1
+ -Section-similar
+  -content sectionsimilar
+ -Section-similar
+  -content sectionsimilar
+-Section-similar
+  -content sectionsimilar
+-section green box
+ -content section green-box

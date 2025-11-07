@@ -3,4 +3,88 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-  }
+}
+
+/*utility*/
+.background-gray {
+    background-color: lightgray;
+}
+
+/*classi*/
+
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.navigation-bar-section {
+
+    display: flex;
+    flex-basis: 900px;
+    background-color: orange;
+    height: 40px;
+    border-style: dotted;
+    align-items: center;
+}
+
+
+.logo {
+    width: 200px;
+}
+
+.link {
+    flex-grow: 1;
+}
+
+.login {
+    width: 200px;
+}
+
+.section-box-violet {
+    display: flex;
+    justify-content: center;
+    background-color: navy;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 300px;
+}
+
+.content-section-box-violet {
+    margin: auto;
+    background-color: violet;
+    height: 300px;
+    flex-basis: 40%;
+}
+
+.section-similar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 300px;
+}
+
+.content-section-similar {
+    display: flex;
+    flex-basis: 900px;
+    height: 300px;
+}
+
+.paragrafo1 {
+    height: 100%;
+    width: 60%;
+    background-color: lightblue;
+}
+
+.paragrafo2 {
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+.background-gray .content-section-similar {
+    flex-direction: row-reverse;
+}
